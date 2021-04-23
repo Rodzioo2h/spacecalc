@@ -1,0 +1,16 @@
+#input{
+	font-family: Pricedown;
+	font-size: 18px;
+	text-shadow: 0px 0px 5px black;
+	color: white;
+	text-align: center;
+	padding: 15px;
+}
+#output{
+	font-family: Pricedown;
+	font-size: 16px;
+	text-shadow: 0px 0px 5px black;
+	color: white;
+	text-align: center;
+	padding: 15px;
+}
