@@ -39,7 +39,6 @@
 	<div id="output">
 		<span id="obliczenia">kliknij tu po wynik</span><br>
 		<span id="wynik"></span>
-		<span id="test"></span>
 		
 	</div>
 	<div>
@@ -63,7 +62,7 @@
 		var fm=s1m0 + s2m0;
 		var fm2=s1mf + s2m0;
 		let deltaV=(s1I * s1es * 9.8 * Math.log((fm / fm2 ))) + (s2I * s2es * Math.log((s2m0 / s2mf))) + (plI * ples * Math.log((mpl / (mpl - plfm))));
-	test.innerHTML=deltaV
+	
 	if(goal == 1){
 		if(deltaV >= 9400){
 			wynik.innerHTML=" dolecisz na niską orbitę z " + (deltaV - 9400) + "(m/s) delta V zapasu"
