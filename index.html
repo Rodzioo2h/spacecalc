@@ -59,9 +59,9 @@
 		var mpl=document.getElementById("ples").value;
 		s2m0=s2m0 + mpl;
 		s2mf=s2mf + mpl;
-		var fm=s1m0 + s2m0
-		var fm2=s1mf + s2m0
-		let deltaV=(s1I * s1es * 9.8 * Math.log((fm / fm2 ))) + (s2I * s2es * Math.log((s2m0 / s2mf))) + (plI * ples * Math.log((mpl / (mpl - plfm))))
+		var fm=s1m0 + s2m0;
+		var fm2=s1mf + s2m0;
+		let deltaV=(s1I * s1es * 9.8 * Math.log((fm / fm2 ))) + (s2I * s2es * Math.log((s2m0 / s2mf))) + (plI * ples * Math.log((mpl / (mpl - plfm))));
 	
 	if(goal == 1){
 		if(deltaV >= 9400){
